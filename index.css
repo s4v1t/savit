@@ -1,0 +1,23 @@
+.babel-img {
+    position: relative;
+    top: 15px;
+}
+.img-babel {
+    position: relative;
+    top: 600px;
+}
+
+.info {
+    font-size: medium;
+}
+
+
+p {
+    left: 0;
+    line-height: 30px;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
