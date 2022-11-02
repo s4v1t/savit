@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>☰</title>
-    <link rel="stylesheet" href="index.css">
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    p {text-align: center;}
-    p {text-align: bottom;}
-    </style>
+    <title>Document</title>
 </head>
 <body>
-<div class="countquote"> 
-    <img class="babel-img" src="https://libraryofbabel.info/img/hex802.png" alt="babel_logo">
-    <img class="img-babel" src="https://libraryofbabel.info/img/hex802.png" alt="babel_logo1">
-    <u><p> May 26. </u>
-    <br>
-    <em>“Count me in every time. I bear messages which will make both your ears tingle." </em>
-    <br>
-    <strong>  “Art.”</p> </strong> </div></span>
-</div> 
+    <h1>Let f be a function with the following properites:</h1>
+    <h2>(i) f(1) = 1, and</h2>
+    <h2>(ii) f(2n) = n * f(n) for any positive integer n.</h2>
+    <h2>What is the value of f(2^100)?</h2>
+    <h5>Please express your answer in the form of 2^x</h5>
+    <input id = "emptyBox"> <br> <br>
+    <button onclick="myFunction()"> Submit </button>
+    <h1 id = "message"> </h1>
+    <script>
+        function myFunction() {
+            let input = document.querySelector("#emptyBox");
+            let message = document.querySelector("#message");
+            if (input.value == "2^4950") {
+                message.innerHTML = "Correct.";                 
+            } else {
+                message.innerHTML = "Incorrect.";
+            }
+        }
+    </script>
+
 </body>
 </html>
